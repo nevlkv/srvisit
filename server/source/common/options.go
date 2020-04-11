@@ -68,7 +68,7 @@ const (
 	MessFull   = 4
 
 	CountersFilename = "counters.json"
-	LogFilename      = "log.txt"
+	LogFilename      = "/opt/log.txt"
 	LogSize          = 20 * 1024 * 1024 //20MB
 
 	//константы ожидания
