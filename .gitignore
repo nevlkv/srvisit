@@ -1,0 +1,14 @@
+
+.idea
+profiles.list
+options.cfg
+resource/vnc/*
+log.txt
+counters.json
+*.exe
+node_log.txt
+srvisit
+cert.pem
+key.pem
+*.out
+coverage.txt
