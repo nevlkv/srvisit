@@ -17,7 +17,7 @@ const (
 	CodeLength     = 64 //длина code
 	PasswordLength = 14
 
-	VNCFileList = "vnc.list"
+	VNCFileList = "/opt/vnc.list"
 
 	MaxLengthIDLog        = 6 //длина идентификатора потока для логов
 	MaxLengthIDNode       = 8
@@ -55,7 +55,7 @@ const (
 	StaticMessageRegMail       = 10
 	StaticMessageRegSuccessful = 11
 
-	FileOptions = "options.cfg"
+	FileOptions = "/opt/options.cfg"
 
 	ModeRegular = 0
 	ModeMaster  = 1
@@ -67,7 +67,7 @@ const (
 	MessDetail = 3
 	MessFull   = 4
 
-	CountersFilename = "counters.json"
+	CountersFilename = "/opt/counters.json"
 	LogFilename      = "/opt/log.txt"
 	LogSize          = 20 * 1024 * 1024 //20MB
 
@@ -98,7 +98,7 @@ var (
 		Mode:            ModeRegular,
 		MyCoordinates:   [2]float64{0, 0},
 		DebugFlag:       true,
-		MasterServer:    "data.rvisit.net",
+		MasterServer:    "localhost",
 		MasterPort:      "65470",
 		MasterPassword:  "master",
 		LogLevel:        MessFull,
