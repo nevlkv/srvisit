@@ -80,7 +80,7 @@ const (
 	WaitIdleAgent    = 2
 	WaitConnection   = 30
 
-	ProfilesFilename = "profiles.list"
+	ProfilesFilename = "/opt/profiles.list"
 )
 
 var (
